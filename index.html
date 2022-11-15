@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reddit.css" />
+    <title>Reddit Clone</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img src="img/reddit-logo.png" alt="Reddit Logo" class="reddit-logo" />
+        <input type="text" placeholder="Search Here" />
+        <div class="navBtn">
+          <button class="logIn">Log In</button>
+        </div>
+      </nav>
+    </header>
+    <div class="popUp hidden">
+      <button class="close-pop">&times;</button>
+      <h1>You Can Join Us</h1>
+      <input type="email" placeholder="Enter Your Email" />
+      <button class="joinPop">Join Us</button>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <section>
+      <div class="post">
+        <h3>Popular posts</h3>
+        <div class="post-head">
+          <a href="#post-india">India</a>
+          <a href="#post-meme">Memes</a>
+          <a href="#post-health">Health</a>
+          <a href="#post-art">Art</a>
+          <a href="#">....</a>
+        </div>
+        <div class="post-box">
+          <div id="post-india">
+              <div class="post-sec">
+                <p>India News</p>
+              </div>
+          </div>
+          <h3>
+            Mr. DY Chandrachud, the 50th Chief Justice of India with his wife
+            Kalpana Das and their foster children
+          </h3>
+          <img src="img/post1.webp" alt="" />
+        </div>
+
+        <div class="post-box">
+          <div id="post-meme">
+            <div class="post-sec">
+             <p>Memes and Satire</p>
+            </div>
+        </div>
+          <h3>Chip found in 2000 rupees note</h3>
+          <img src="img/post2.webp" alt="" />
+        </div>
+
+        <div class="post-box">
+          <div id="post-health">
+            <div class="post-sec">
+              <p>Health and Environment</p>
+            </div>
+          </div>
+          <h3>
+            For god sake save Delhi! I'am ready to pay more taxes, but please
+            give us clear air!
+          </h3>
+          <img src="img/post3.webp" alt="" />
+        </div>
+
+        <div class="post-box">
+          <div id="post-art">
+            <div class="post-sec">
+             <p>Art and Space</p>
+            </div>
+          </div>
+          <h3>[OC] Today's Lunar eclipse from Kolkata, shot on Nikon D3500</h3>
+          <img src="img/post4.webp" alt="" />
+        </div>
+      </div>
+      <aside>
+        <div class="side-container1">
+          <h3>Today's Hot Topics</h3>
+          <div class="cont-info">
+            <img src="img/sport.png" alt="" />
+            <p>35th Match, Group 2 - South Africa vs India</p>
+            <button class="joinbtn">Join</button>
+          </div>
+
+          <div class="cont-info">
+            <img src="img/sport.png" alt="" />
+            <p>36th Match, Group 1 - England vs Sri Lanka</p>
+            <button class="joinbtn">Join</button>
+          </div>
+
+          <div class="cont-info">
+            <img src="img/sport.png" alt="" />
+            <p>37th Match, Group 1 - Australia vs Afganistan</p>
+            <button class="joinbtn">Join</button>
+          </div>
+
+          <div class="cont-info">
+            <img src="img/sport.png" alt="" />
+            <p>38th Match, Group 2 - Pakistan vs Netharland</p>
+            <button class="joinbtn">Join</button>
+          </div>
+
+          <div class="cont-info">
+            <img src="img/sport.png" alt="" />
+            <p>39th Match, Group 2 - Bangladesh vs India</p>
+            <button class="joinbtn">Join</button>
+          </div>
+          <button class="view-btn">View All</button>
+        </div>
+
+        <div class="side-container1">
+          <h3>Search By Flair</h3>
+
+          <div class="cont-info">
+            <button class="flairBtn">Ask India</button>
+          </div>
+
+          <div class="cont-info">
+            <button class="flairBtn">Non Political</button>
+          </div>
+
+          <div class="cont-info">
+            <button class="flairBtn">Health</button>
+          </div>
+
+          <div class="cont-info">
+            <button class="flairBtn">Art Photo</button>
+          </div>
+
+          <div class="cont-info">
+            <button class="flairBtn">Science</button>
+          </div>
+        </div>
+      </aside>
+    </section>
+    <footer>
+      <div class="footer">
+          <p>copyright &#169 Nitesh Negi</p> 
+      </div>
+    </footer>
+    <script src="reddit.js"></script>
+  </body>
+</html>
