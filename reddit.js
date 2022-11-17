@@ -5,13 +5,13 @@ const btnClosePop = document.querySelector(".close-pop");
 const btnsOpenPop = document.querySelectorAll(".logIn");
 
 //when we click LogIN button
-const openPopUp = function () {
+const openPopUp = () => {
   popUp.classList.remove("hidden");
   overlay.classList.remove("hidden");
 };
 
 //when we click X on overlay
-const closePopUp = function () {
+const closePopUp = () => {
   popUp.classList.add("hidden");
   overlay.classList.add("hidden");
 };
